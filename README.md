@@ -4,13 +4,13 @@ A tool to look up rhymes in Chinese.
 
 ## Usage
 
-[usual_list.txt](usual_list.txt) : To look up usually used characters.
+[usual_list](usual_list.txt) : To look up usually used characters.
 
-[usual_obj.txt](usual_obj.txt) : Usually used characters with pinyins.
+[usual_obj](usual_obj.txt) : Usually used characters with pinyins.
 
-[usual_vowel.txt](usual_vowel.txt) : To look for characters through vowels.
+[usual_vowel](usual_vowel.txt) : To look for characters through vowels.
 
- [usual_consonant.txt](usual_consonant.txt): To look for characters through consonants.
+ [usual_consonant](usual_consonant.txt): To look for characters through consonants.
 
 ## Thanks
 
