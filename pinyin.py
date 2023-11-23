@@ -26,6 +26,8 @@ class PinYin:
         "?",
     ]
     VOWELS = [
+        "iang",
+        "iong",
         "ang",
         "eng",
         "ing",
@@ -71,6 +73,8 @@ class PinYin:
         "qu": "qv",
         "xu": "xv",
         "ye": "yie",
+        "yang": "yiang",
+        "yong": "yiong",
         "yan": "yian",
     }
     TONE_DICT = {

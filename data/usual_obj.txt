@@ -22,7 +22,7 @@
 东 d ong
 丝 s !
 丢 d iu
-两 li ang
+两 l iang
 严 y ian
 丧 s ang
 个 g e
@@ -59,7 +59,7 @@
 乞 q i
 也 y ie
 习 x i
-乡 xi ang
+乡 x iang
 书 sh u
 买 m ai
 乱 l uan
@@ -83,10 +83,10 @@
 亦 y i
 产 ch an
 亩 m u
-享 xi ang
+享 x iang
 京 j ing
 亭 t ing
-亮 li ang
+亮 l iang
 亲 q in
 亲 q ing
 人 r en
@@ -114,7 +114,7 @@
 以 y i
 仪 y i
 们 m en
-仰 yi ang
+仰 y iang
 件 j ian
 价 j ia
 价 j ie
@@ -156,7 +156,7 @@
 佛 f u
 作 zu o
 你 n i
-佣 y ong
+佣 y iong
 佩 p ei
 佳 j ia
 使 sh !
@@ -181,7 +181,7 @@
 保 b ao
 信 x in
 俩 l ia
-俩 li ang
+俩 l iang
 俭 j ian
 修 x iu
 俯 f u
@@ -212,9 +212,9 @@
 催 c ui
 傲 ? ao
 傻 sh a
-像 xi ang
+像 x iang
 僚 l iao
-僵 ji ang
+僵 j iang
 僻 p i
 儿 ? er
 允 y vn
@@ -243,7 +243,7 @@
 其 q i
 具 q v
 典 d ian
-养 yi ang
+养 y iang
 兼 j ian
 兽 sh ou
 内 n ei
@@ -267,7 +267,7 @@
 冻 d ong
 净 j ing
 准 zh un
-凉 li ang
+凉 l iang
 减 j ian
 凑 c ou
 凝 n ing
@@ -336,7 +336,7 @@
 劲 j ing
 劳 l ao
 势 sh !
-勇 y ong
+勇 y iong
 勉 m ian
 勒 l e
 勒 l ei
@@ -351,7 +351,7 @@
 北 b ei
 匙 ch !
 匙 sh !
-匠 ji ang
+匠 j iang
 匪 f ei
 匹 p i
 区 ? ou
@@ -449,7 +449,7 @@
 名 m ing
 后 h ou
 吐 t u
-向 xi ang
+向 x iang
 吓 h e
 吓 x ia
 吗 m a
@@ -484,7 +484,7 @@
 命 m ing
 和 h e
 和 hu o
-咏 y ong
+咏 y iong
 咐 f u
 咬 y ao
 咱 z a
@@ -497,7 +497,7 @@
 品 p in
 哄 h ong
 哈 h a
-响 xi ang
+响 x iang
 哑 y a
 哗 h ua
 哥 g e
@@ -601,7 +601,7 @@
 填 t ian
 境 j ing
 墓 m u
-墙 qi ang
+墙 q iang
 增 z eng
 墨 m o
 壁 b i
@@ -626,7 +626,7 @@
 天 t ian
 太 t ai
 夫 f u
-央 yi ang
+央 y iang
 失 sh !
 头 t ou
 夸 k ua
@@ -639,7 +639,7 @@
 奋 f en
 奏 z ou
 奔 b en
-奖 ji ang
+奖 j iang
 套 t ao
 奥 ? ao
 女 n v
@@ -663,7 +663,7 @@
 姑 g u
 姓 x ing
 委 w ei
-姜 ji ang
+姜 j iang
 姥 l ao
 姥 m u
 姨 y i
@@ -672,7 +672,7 @@
 威 w ei
 娃 w a
 娇 j iao
-娘 ni ang
+娘 n iang
 娱 y v
 婆 p o
 婚 h un
@@ -741,7 +741,7 @@
 寿 sh ou
 封 f eng
 射 sh e
-将 ji ang
+将 j iang
 尊 z un
 小 x iao
 少 sh ao
@@ -805,7 +805,7 @@
 已 y i
 巴 b a
 巷 h ang
-巷 xi ang
+巷 x iang
 巾 j in
 币 b i
 市 f u
@@ -853,7 +853,7 @@
 座 zu o
 庭 t ing
 康 k ang
-庸 y ong
+庸 y iong
 廉 l ian
 廊 l ang
 延 y ian
@@ -874,8 +874,8 @@
 弱 ru o
 弹 d an
 弹 t an
-强 ji ang
-强 qi ang
+强 j iang
+强 q iang
 归 g ui
 当 d ang
 录 l u
@@ -962,7 +962,7 @@
 惭 c an
 惯 g uan
 惰 du o
-想 xi ang
+想 x iang
 惹 r e
 愁 ch ou
 愈 y v
@@ -1015,7 +1015,7 @@
 执 zh !
 扩 ku o
 扫 s ao
-扬 yi ang
+扬 y iang
 扭 n iu
 扮 b an
 扯 ch e
@@ -1035,7 +1035,7 @@
 折 zh e
 抚 f u
 抛 p ao
-抢 qi ang
+抢 q iang
 护 h u
 报 b ao
 披 p i
@@ -1061,7 +1061,7 @@
 拜 b ai
 拢 l ong
 拣 j ian
-拥 y ong
+拥 y iong
 拦 l an
 拨 b o
 择 z e
@@ -1279,7 +1279,7 @@
 杠 g ang
 条 t iao
 来 l ai
-杨 yi ang
+杨 y iang
 杯 b ei
 杰 j ie
 松 s ong
@@ -1292,7 +1292,7 @@
 果 gu o
 枝 zh !
 枣 z ao
-枪 qi ang
+枪 q iang
 枯 k u
 架 j ia
 柄 b ing
@@ -1317,7 +1317,7 @@
 校 j iao
 校 x iao
 株 zh u
-样 yi ang
+样 y iang
 核 h e
 核 h u
 根 g en
@@ -1332,9 +1332,9 @@
 桑 s ang
 档 d ang
 桥 q iao
-桨 ji ang
+桨 j iang
 桶 t ong
-梁 li ang
+梁 l iang
 梅 m ei
 梢 s ao
 梢 sh ao
@@ -1369,7 +1369,7 @@
 横 h eng
 樱 y ing
 橘 q v
-橡 xi ang
+橡 x iang
 欠 q ian
 次 c !
 欢 h uan
@@ -1389,7 +1389,7 @@
 歪 w ai
 死 s !
 歼 j ian
-殃 yi ang
+殃 y iang
 殊 sh u
 残 c an
 殖 sh !
@@ -1411,15 +1411,15 @@
 氏 zh !
 民 m in
 气 q i
-氧 yi ang
+氧 y iang
 水 sh ui
-永 y ong
+永 y iong
 汁 zh !
 求 q iu
 汇 h ui
 汉 h an
 汗 h an
-江 ji ang
+江 j iang
 池 ch !
 污 w u
 汤 sh ang
@@ -1453,12 +1453,12 @@
 注 zh u
 泪 l ei
 泰 t ai
-泳 y ong
+泳 y iong
 泻 x ie
 泼 p o
 泽 z e
 洁 j ie
-洋 yi ang
+洋 y iang
 洒 s a
 洒 x i
 洗 x i
@@ -1474,7 +1474,7 @@
 流 l iu
 浅 j ian
 浅 q ian
-浆 ji ang
+浆 j iang
 浇 j iao
 浊 zhu o
 测 c e
@@ -1492,7 +1492,7 @@
 消 x iao
 涉 sh e
 涌 ch ong
-涌 y ong
+涌 y iong
 涛 t ao
 涝 l ao
 润 r un
@@ -1658,7 +1658,7 @@
 甚 sh en
 甜 t ian
 生 sh eng
-用 y ong
+用 y iong
 甩 sh uai
 田 t ian
 由 y ou
@@ -1676,7 +1676,7 @@
 略 lü e
 番 f an
 番 p an
-疆 ji ang
+疆 j iang
 疏 sh u
 疑 y i
 疗 l iao
@@ -1689,7 +1689,7 @@
 疾 j i
 病 b ing
 症 zh eng
-痒 yi ang
+痒 y iang
 痕 h en
 痛 t ong
 痰 t an
@@ -1723,7 +1723,7 @@
 盯 d ing
 盲 m ang
 直 zh !
-相 xi ang
+相 x iang
 盼 p an
 盾 d un
 省 sh eng
@@ -1779,7 +1779,7 @@
 祖 z u
 祝 zh u
 神 sh en
-祥 xi ang
+祥 x iang
 票 p iao
 祸 hu o
 禁 j in
@@ -1800,7 +1800,7 @@
 秘 m i
 租 z u
 秤 ch eng
-秧 yi ang
+秧 y iang
 秩 zh !
 积 j i
 称 ch en
@@ -1863,7 +1863,7 @@
 管 g uan
 箩 lu o
 箭 j ian
-箱 xi ang
+箱 x iang
 篇 p ian
 篮 l an
 籍 j i
@@ -1877,8 +1877,8 @@
 粥 y v
 粥 zh ou
 粪 f en
-粮 li ang
-粱 li ang
+粮 l iang
+粱 l iang
 精 j ing
 糊 h u
 糕 g ao
@@ -1966,7 +1966,7 @@
 罩 zh ao
 罪 z ui
 置 zh !
-羊 yi ang
+羊 y iang
 美 m ei
 羞 x iu
 羡 x ian
@@ -2043,7 +2043,7 @@
 腊 l a
 腊 x i
 腐 f u
-腔 qi ang
+腔 q iang
 腥 x ing
 腰 y ao
 腹 f u
@@ -2080,7 +2080,7 @@
 船 ch uan
 艇 t ing
 艘 s ou
-良 li ang
+良 l iang
 艰 j ian
 色 s e
 色 sh ai
@@ -2169,7 +2169,7 @@
 虚 x v
 虫 ch ong
 虹 h ong
-虹 ji ang
+虹 j iang
 虽 s ui
 虾 h a
 虾 x ia
@@ -2257,7 +2257,7 @@
 议 y i
 讯 x vn
 记 j i
-讲 ji ang
+讲 j iang
 许 x v
 论 l un
 讽 f eng
@@ -2278,7 +2278,7 @@
 诞 d an
 询 x vn
 该 g ai
-详 xi ang
+详 x iang
 语 y v
 误 w u
 诱 y ou
@@ -2295,7 +2295,7 @@
 谁 sh ui
 调 d iao
 调 t iao
-谅 li ang
+谅 l iang
 谈 t an
 谊 y i
 谋 m ou
@@ -2310,7 +2310,7 @@
 谷 g u
 谷 y v
 豆 d ou
-象 xi ang
+象 x iang
 豪 h ao
 貌 m ao
 贝 b ei
@@ -2403,7 +2403,7 @@
 轿 j iao
 较 j iao
 辅 f u
-辆 li ang
+辆 l iang
 辈 b ei
 辉 h ui
 输 sh u
@@ -2493,10 +2493,10 @@
 配 p ei
 酒 j iu
 酬 ch ou
-酱 ji ang
+酱 j iang
 酷 k u
 酸 s uan
-酿 ni ang
+酿 n iang
 醉 z ui
 醋 c u
 醒 x ing
@@ -2506,7 +2506,7 @@
 重 ch ong
 重 zh ong
 野 y ie
-量 li ang
+量 l iang
 金 j in
 鉴 j ian
 针 zh en
@@ -2569,7 +2569,7 @@
 阔 ku o
 队 d ui
 防 f ang
-阳 yi ang
+阳 y iang
 阴 y in
 阵 zh en
 阶 j ie
@@ -2580,8 +2580,8 @@
 陆 l iu
 陆 l u
 陈 ch en
-降 ji ang
-降 xi ang
+降 j iang
+降 x iang
 限 x ian
 陕 sh an
 陡 d ou
@@ -2636,7 +2636,7 @@
 页 y ie
 顶 d ing
 顷 q ing
-项 xi ang
+项 x iang
 顺 sh un
 须 x v
 顽 w an
@@ -2677,7 +2677,7 @@
 馋 ch an
 馒 m an
 首 sh ou
-香 xi ang
+香 x iang
 马 m a
 驰 ch !
 驱 q v
