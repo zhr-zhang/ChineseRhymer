@@ -71,10 +71,7 @@ class PinYin:
         "qu": "qv",
         "xu": "xv",
         "ye": "yie",
-        "yue": "yve",
-        "yun": "yvn",
         "yan": "yian",
-        "qun": "qvn",
     }
     TONE_DICT = {
         "iū": "1",
@@ -173,8 +170,8 @@ class PinYin:
                 self.tone = self.TONE_DICT[key]
                 break
         for key in self.HOLISTICS_DICT:
-            if key == self.pinyin:
-                self.pinyin = self.HOLISTICS_DICT[key]
+            if key in self.pinyin:
+                self.pinyin = self.pinyin.replace(key, self.HOLISTICS_DICT[key])
                 break
         for vowel in self.VOWELS:
             if vowel in self.pinyin:

@@ -114,7 +114,7 @@
 以 y i
 仪 y i
 们 m en
-仰 y ang
+仰 yi ang
 件 j ian
 价 j ia
 价 j ie
@@ -175,7 +175,7 @@
 便 b ian
 便 p ian
 促 c u
-俊 j un
+俊 q vn
 俗 s u
 俘 f u
 保 b ao
@@ -194,7 +194,7 @@
 倚 y i
 借 j ie
 倡 ch ang
-倦 j uan
+倦 qv an
 债 zh ai
 值 zh !
 倾 q ing
@@ -218,7 +218,7 @@
 僻 p i
 儿 ? er
 允 y vn
-元 y uan
+元 yv an
 兄 xōng i
 充 ch ong
 兆 zh ao
@@ -229,7 +229,7 @@
 兔 t u
 党 d ang
 入 r u
-全 q uan
+全 qv an
 八 b a
 公 g ong
 六 l iu
@@ -243,7 +243,7 @@
 其 q i
 具 q v
 典 d ian
-养 y ang
+养 yi ang
 兼 j ian
 兽 sh ou
 内 n ei
@@ -253,14 +253,14 @@
 冒 m ao
 冒 m o
 写 x ie
-军 j un
+军 q vn
 农 n ong
 冠 g uan
-冤 y uan
+冤 yv an
 冬 d ong
 冰 b ing
 冲 ch ong
-决 ju e
+决 q ve
 况 ku ang
 冶 y ie
 冷 l eng
@@ -301,14 +301,14 @@
 到 d ao
 制 zh !
 刷 sh ua
-券 q uan
-券 x uan
+券 qv an
+券 xv an
 刺 c !
 刻 k e
 剂 j i
 剃 t i
 削 x iao
-削 xu e
+削 x ve
 前 q ian
 剑 j ian
 剖 p ou
@@ -321,7 +321,7 @@
 割 g e
 劈 p i
 力 l i
-劝 q uan
+劝 qv an
 办 b an
 功 g ong
 加 j ia
@@ -381,9 +381,9 @@
 印 y in
 危 w ei
 即 j i
-却 qu e
+却 q ve
 卵 l uan
-卷 j uan
+卷 qv an
 卸 x ie
 厂 ? an
 厂 ch ang
@@ -396,7 +396,7 @@
 厕 s !
 厘 l i
 厚 h ou
-原 y uan
+原 yv an
 厦 sh a
 厦 x ia
 厨 ch u
@@ -453,7 +453,7 @@
 吓 h e
 吓 x ia
 吗 m a
-君 j un
+君 q vn
 吞 t un
 否 f ou
 否 p i
@@ -473,7 +473,7 @@
 呆 d ai
 呈 ch eng
 告 g ao
-员 y uan
+员 yv an
 员 y vn
 呜 w u
 呢 n e
@@ -540,14 +540,14 @@
 回 h ui
 因 y in
 团 t uan
-园 y uan
+园 yv an
 困 k un
 围 w ei
 固 g u
 国 gu o
 图 t u
-圆 y uan
-圈 j uan
+圆 yv an
+圈 qv an
 土 t u
 圣 sh eng
 在 z ai
@@ -556,7 +556,7 @@
 场 ch ang
 圾 j i
 址 zh !
-均 j un
+均 q vn
 坊 f ang
 坏 h uai
 坏 p i
@@ -626,7 +626,7 @@
 天 t ian
 太 t ai
 夫 f u
-央 y ang
+央 yi ang
 失 sh !
 头 t ou
 夸 k ua
@@ -691,7 +691,7 @@
 孟 m eng
 季 j i
 孤 g u
-学 xu e
+学 x ve
 孩 h ai
 宁 n ing
 它 t a
@@ -711,7 +711,7 @@
 实 sh !
 审 sh en
 客 k e
-宣 x uan
+宣 xv an
 室 sh !
 宪 x ian
 宫 g ong
@@ -736,7 +736,7 @@
 对 d ui
 寺 s !
 寻 x in
-寻 x un
+寻 x vn
 导 d ao
 寿 sh ou
 封 f eng
@@ -791,7 +791,7 @@
 崭 zh an
 川 ch uan
 州 zh ou
-巡 x un
+巡 x vn
 工 g ong
 左 zu o
 巧 q iao
@@ -895,7 +895,7 @@
 徒 t u
 得 d e
 御 y v
-循 x un
+循 x vn
 微 w ei
 德 d e
 心 x in
@@ -923,7 +923,7 @@
 怠 d ai
 急 j i
 性 x ing
-怨 y uan
+怨 yv an
 怪 g uai
 总 z ong
 恋 l ian
@@ -947,7 +947,7 @@
 患 h uan
 悦 y ve
 您 n in
-悬 x uan
+悬 xv an
 悲 b ei
 悼 d ao
 情 q ing
@@ -972,7 +972,7 @@
 感 g an
 愤 f en
 愧 k ui
-愿 y uan
+愿 yv an
 慈 c !
 慌 hu ang
 慎 sh en
@@ -1015,7 +1015,7 @@
 执 zh !
 扩 ku o
 扫 s ao
-扬 y ang
+扬 yi ang
 扭 n iu
 扮 b an
 扯 ch e
@@ -1068,7 +1068,7 @@
 择 zh ai
 括 g ua
 括 ku o
-拳 q uan
+拳 qv an
 拴 sh uan
 拼 p in
 拾 sh !
@@ -1094,7 +1094,7 @@
 捉 zhu o
 捎 sh ao
 捏 n ie
-捐 j uan
+捐 qv an
 捕 b u
 捞 l ao
 损 s un
@@ -1109,7 +1109,7 @@
 掌 zh ang
 掏 t ao
 排 p ai
-掘 ju e
+掘 q ve
 掠 lü e
 探 t an
 接 j ie
@@ -1124,7 +1124,7 @@
 握 w o
 揪 j iu
 揭 j ie
-援 y uan
+援 yv an
 搁 g e
 搂 l ou
 搅 j iao
@@ -1189,7 +1189,7 @@
 施 sh !
 旁 p ang
 旅 l v
-旋 x uan
+旋 xv an
 族 z u
 旗 q i
 无 m o
@@ -1200,7 +1200,7 @@
 旧 j iu
 旨 zh !
 早 z ao
-旬 x un
+旬 x vn
 旱 h an
 时 sh !
 旷 ku ang
@@ -1268,7 +1268,7 @@
 朽 x iu
 杀 sh a
 杂 z a
-权 q uan
+权 qv an
 杆 g an
 李 l i
 杏 x ing
@@ -1279,7 +1279,7 @@
 杠 g ang
 条 t iao
 来 l ai
-杨 y ang
+杨 yi ang
 杯 b ei
 杰 j ie
 松 s ong
@@ -1317,7 +1317,7 @@
 校 j iao
 校 x iao
 株 zh u
-样 y ang
+样 yi ang
 核 h e
 核 h u
 根 g en
@@ -1389,7 +1389,7 @@
 歪 w ai
 死 s !
 歼 j ian
-殃 y ang
+殃 yi ang
 殊 sh u
 残 c an
 殖 sh !
@@ -1411,7 +1411,7 @@
 氏 zh !
 民 m in
 气 q i
-氧 y ang
+氧 yi ang
 水 sh ui
 永 y ong
 汁 zh !
@@ -1442,7 +1442,7 @@
 沾 zh an
 沿 y ian
 泄 x ie
-泉 q uan
+泉 qv an
 泊 b o
 泊 p o
 法 f a
@@ -1458,7 +1458,7 @@
 泼 p o
 泽 z e
 洁 j ie
-洋 y ang
+洋 yi ang
 洒 s a
 洒 x i
 洗 x i
@@ -1520,7 +1520,7 @@
 湾 w an
 湿 sh !
 溉 g ai
-源 y uan
+源 yv an
 溜 l iu
 溪 x i
 滋 z !
@@ -1613,7 +1613,7 @@
 特 t e
 牺 x i
 犁 l i
-犬 q uan
+犬 qv an
 犯 f an
 状 zhu ang
 犹 y ou
@@ -1689,7 +1689,7 @@
 疾 j i
 病 b ing
 症 zh eng
-痒 y ang
+痒 yi ang
 痕 h en
 痛 t ong
 痰 t an
@@ -1762,7 +1762,7 @@
 破 p o
 础 ch u
 硬 y ing
-确 qu e
+确 q ve
 碌 l iu
 碌 l u
 碍 ? ai
@@ -1800,7 +1800,7 @@
 秘 m i
 租 z u
 秤 ch eng
-秧 y ang
+秧 yi ang
 秩 zh !
 积 j i
 称 ch en
@@ -1816,7 +1816,7 @@
 稼 j ia
 稿 g ao
 穗 s ui
-穴 xu e
+穴 x ve
 究 j iu
 穷 qóng i
 空 k ong
@@ -1931,10 +1931,10 @@
 给 j i
 络 l ao
 络 lu o
-绝 ju e
+绝 q ve
 绞 j iao
 统 t ong
-绢 j uan
+绢 qv an
 绣 x iu
 继 j i
 绩 j i
@@ -1949,7 +1949,7 @@
 缎 d uan
 缓 h uan
 编 b ian
-缘 y uan
+缘 yv an
 缝 f eng
 缠 ch an
 缩 s u
@@ -1957,7 +1957,7 @@
 缴 j iao
 缴 zhu o
 缸 g ang
-缺 qu e
+缺 q ve
 罐 g uan
 网 w ang
 罗 lu o
@@ -1966,7 +1966,7 @@
 罩 zh ao
 罪 z ui
 置 zh !
-羊 y ang
+羊 yi ang
 美 m ei
 羞 x iu
 羡 x ian
@@ -2036,7 +2036,7 @@
 脑 n ao
 脖 b o
 脚 j iao
-脚 ju e
+脚 q ve
 脱 tu o
 脸 l ian
 脾 p i
@@ -2125,7 +2125,7 @@
 莲 l ian
 获 hu o
 菊 q v
-菌 j un
+菌 q vn
 菜 c ai
 菠 b o
 萄 t ao
@@ -2200,7 +2200,7 @@
 螺 lu o
 蠢 ch un
 血 x ie
-血 xu e
+血 x ve
 行 h ang
 行 x ing
 衔 x ian
@@ -2239,9 +2239,9 @@
 视 sh !
 览 l an
 觉 j iao
-觉 ju e
+觉 q ve
 角 j iao
-角 ju e
+角 q ve
 解 j ie
 触 ch u
 言 y ian
@@ -2253,9 +2253,9 @@
 认 r en
 讨 t ao
 让 r ang
-训 x un
+训 x vn
 议 y i
-讯 x un
+讯 x vn
 记 j i
 讲 ji ang
 许 x v
@@ -2276,7 +2276,7 @@
 诚 ch eng
 话 h ua
 诞 d an
-询 x un
+询 x vn
 该 g ai
 详 xi ang
 语 y v
@@ -2422,7 +2422,7 @@
 辽 l iao
 达 d a
 迁 q ian
-迅 x un
+迅 x vn
 过 gu o
 迈 m ai
 迎 y ing
@@ -2434,7 +2434,7 @@
 这 zh e
 这 zh ei
 进 j in
-远 y uan
+远 yv an
 违 w ei
 连 l ian
 迟 ch !
@@ -2450,7 +2450,7 @@
 适 sh !
 逃 t ao
 逆 n i
-选 x uan
+选 xv an
 透 t ou
 逐 zh u
 递 d i
@@ -2569,7 +2569,7 @@
 阔 ku o
 队 d ui
 防 f ang
-阳 y ang
+阳 yi ang
 阴 y in
 阵 zh en
 阶 j ie
@@ -2585,7 +2585,7 @@
 限 x ian
 陕 sh an
 陡 d ou
-院 y uan
+院 yv an
 除 ch u
 险 x ian
 陪 p ei
@@ -2608,7 +2608,7 @@
 集 j i
 雕 d iao
 雨 y v
-雪 xu e
+雪 x ve
 零 l ing
 雷 l ei
 雹 b ao
@@ -2714,7 +2714,7 @@
 鸭 y a
 鸽 g e
 鹅 ? e
-鹊 qu e
+鹊 q ve
 鹰 y ing
 鹿 l u
 麦 m ai
@@ -2732,5 +2732,5 @@
 龄 l ing
 龙 l ong
 龟 g ui
-龟 j un
+龟 q vn
 龟 q iu
