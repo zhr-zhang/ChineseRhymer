@@ -1,4 +1,5 @@
 import json
+from tqdm import tqdm
 
 characters = open("resource/characters.txt", "r", encoding="utf-8").readlines()
 pinyins_path = "resource/kXHC1983.txt"
@@ -6,7 +7,7 @@ pinyins_path = "resource/kXHC1983.txt"
 # 创建character_pinyin_dict
 character_pinyin_dict = {}
 with open(pinyins_path, "r", encoding="utf-8") as file:
-    for line in file:
+    for line in tqdm(file):
         for character in characters:
             character = character.strip()
             if character in line:

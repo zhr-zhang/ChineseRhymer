@@ -79,9 +79,9 @@ if __name__ == "__main__":
     rhymer = Rhymer()
     conditions = [
         lambda word: length_range_condition(word, length=2),
-        lambda word: nth_character_attribute_condition(word, 0, "vowel", "an"),
-        lambda word: nth_character_attribute_condition(word, 1, "vowel", "i"),
-        lambda word: nth_character_attribute_condition(word, 0, "tone", "3"),
+        lambda word: nth_character_attribute_condition(word, 0, "vowel", "i"),
+        lambda word: nth_character_attribute_condition(word, 1, "vowel", "a"),
+        lambda word: nth_character_attribute_condition(word, 0, "tone", "1"),
         lambda word: nth_character_attribute_condition(word, 1, "tone", "1"),
     ]
 
