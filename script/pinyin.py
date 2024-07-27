@@ -37,6 +37,7 @@ class PinYin:
         "ong",
         "ian",
         "uan",
+        "van",
         "uai",
         "iao",
         "ua",

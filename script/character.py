@@ -4,7 +4,6 @@ from typing import List, Dict
 
 
 class Character:
-
     character_pinyin_dict_path = "resource/character_pinyin_dict.json"
     with open(
         character_pinyin_dict_path, "r", encoding="utf-8"

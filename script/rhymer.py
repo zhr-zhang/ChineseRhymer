@@ -4,14 +4,15 @@ from typing import List, Callable
 
 
 class Rhymer:
+    words_path = "resource/words.txt"
+    characters_path = "resource/characters.txt"
+
     def __init__(
         self,
-        words_path="resource/words.txt",
-        characters_path="resource/characters.txt",
     ):
-        with open(characters_path, "r", encoding="utf-8") as characters_file:
+        with open(self.characters_path, "r", encoding="utf-8") as characters_file:
             characters_texts = characters_file.readlines()
-        with open(words_path, "r", encoding="utf-8") as words_file:
+        with open(self.words_path, "r", encoding="utf-8") as words_file:
             words_texts = words_file.readlines()
         self.characters: List[Character] = [
             Character(character.strip())
@@ -47,7 +48,6 @@ class Rhymer:
         return filtered_words
 
 
-# 示例用法:
 def length_range_condition(
     word: Word,
     length: int = None,
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     rhymer = Rhymer()
     conditions = [
         lambda word: length_range_condition(word, length=2),
-        lambda word: nth_character_attribute_condition(word, 0, "vowel", "a"),
+        lambda word: nth_character_attribute_condition(word, 0, "vowel", "an"),
         lambda word: nth_character_attribute_condition(word, 1, "vowel", "i"),
         lambda word: nth_character_attribute_condition(word, 0, "tone", "3"),
         lambda word: nth_character_attribute_condition(word, 1, "tone", "1"),
