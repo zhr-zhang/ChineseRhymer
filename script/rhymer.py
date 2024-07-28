@@ -4,8 +4,8 @@ from typing import List, Callable
 
 
 class Rhymer:
-    words_path = "resource/words.txt"
-    characters_path = "resource/characters.txt"
+    words_path = "dependencies/words.txt"
+    characters_path = "dependencies/characters.txt"
 
     def __init__(
         self,
@@ -79,10 +79,8 @@ if __name__ == "__main__":
     rhymer = Rhymer()
     conditions = [
         lambda word: length_range_condition(word, length=2),
-        lambda word: nth_character_attribute_condition(word, 0, "vowel", "i"),
-        lambda word: nth_character_attribute_condition(word, 1, "vowel", "a"),
-        lambda word: nth_character_attribute_condition(word, 0, "tone", "1"),
-        lambda word: nth_character_attribute_condition(word, 1, "tone", "1"),
+        lambda word: nth_character_attribute_condition(word, 0, "vowel", "ao"),
+        lambda word: nth_character_attribute_condition(word, 1, "vowel", "ao"),
     ]
 
     filtered_words = rhymer.filter_words(conditions)

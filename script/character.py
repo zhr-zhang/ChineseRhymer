@@ -1,10 +1,10 @@
 from pinyin import PinYin
 import json
-from typing import List, Dict
+from typing import Dict
 
 
 class Character:
-    character_pinyin_dict_path = "resource/character_pinyin_dict.json"
+    character_pinyin_dict_path = "dependencies/character_pinyin_dict.json"
     with open(
         character_pinyin_dict_path, "r", encoding="utf-8"
     ) as character_pinyin_dict_file:
