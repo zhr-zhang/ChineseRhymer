@@ -50,7 +50,8 @@ class Rhymer:
         for condition in conditions:
             filtered_words = [word for word in filtered_words if condition(word)]
         return filtered_words
-    
+
+
 def nth_character_attribute_condition(
     word: Word, position: int, attribute: str, value: str
 ) -> bool:
@@ -93,13 +94,14 @@ if __name__ == "__main__":
     rhymer = Rhymer()
     conditions = [
         # lambda word: length_range_condition(word),
-        lambda word: nth_character_attribute_condition(word, -3, "vowel", "i"),
-        lambda word: nth_character_attribute_condition(word, -2, "vowel", "in"),
-        lambda word: nth_character_attribute_condition(word, -1, "vowel", "ang"),
+        lambda word: nth_character_attribute_condition(word, -2, "vowel", "ang"),
+        lambda word: nth_character_attribute_condition(word, -1, "vowel", "ve"),
+        # lambda word: nth_character_attribute_condition(word, -1, "vowel", "ang"),
         # lambda word: nth_character_attribute_condition(word, -3, "tone", "3"),
         # lambda word: nth_character_attribute_condition(word, -2, "tone", "2"),
         # lambda word: nth_character_attribute_condition(word, -1, "tone", "1"),
     ]
 
     filtered_words = rhymer.filter_words(conditions)
+    print(f"{len(filtered_words):4d} words found")
     print(filtered_words)
