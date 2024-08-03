@@ -1,18 +1,19 @@
 import re
 from typing import List, Dict
-from tqdm import tqdm
+
+# from tqdm import tqdm
 import json
 import os
 
-standard_character_paths = [
-    "resource/standard_table/level-1.txt",
-    "resource/standard_table/level-2.txt",
-    "resource/standard_table/level-3.txt",
+# 定义文件路径
+standard_character_files = [
+    "resource/standard_characters/level-1.txt",
+    "resource/standard_characters/level-2.txt",
+    "resource/standard_characters/level-3.txt",
 ]
-simple_formatted_files = [
+simple_word_files = [
     "resource/words_data/中文分词词库整理/dict.txt",
     "resource/words_data/中文分词词库整理/fingerDic.txt",
-    "resource/words_data/中文分词词库整理/httpcws_dict.txt",
     "resource/words_data/中文分词词库整理/out.txt",
     "resource/words_data/中文分词词库整理/五笔词库.TXT",
     "resource/words_data/中文分词词库整理/四十万汉语大词库.txt",
@@ -23,7 +24,7 @@ simple_formatted_files = [
     "resource/words_data/成语词库/ChengYu_Corpus（5W）.txt",
     "resource/words_data/中文分词词库整理/30wdict.txt",
 ]
-THUOCL_formatted_files = [
+thuocl_word_files = [
     "resource/words_data/动物词库/THUOCL_animal.txt",
     "resource/words_data/医学词库/THUOCL_medical.txt",
     "resource/words_data/成语词库/THUOCL_chengyu.txt",
@@ -32,98 +33,84 @@ THUOCL_formatted_files = [
     "resource/words_data/食物词库/THUOCL_food.txt",
     "resource/words_data/中文分词词库整理/四十万可用搜狗txt词库.txt",
 ]
-dest_dependencies_dir = "dependencies"
-dest_characters_path = "dependencies/characters.txt"
-dest_character_pinyin_dict_path = "dependencies/character_pinyin_dict.json"
-dest_words_path = "dependencies/words.txt"
+dependencies_dir = "dependencies"
+characters_output_path = "dependencies/characters.txt"
+character_pinyin_dict_path = "dependencies/character_pinyin_dict.json"
+words_output_path = "dependencies/words.txt"
 
-characters_texts: List[str] = []
+# 准备标准字符集
 print("Preparing characters...")
-for standard_character_path in standard_character_paths:
-    with open(standard_character_path, "r", encoding="utf-8") as f:
-        characters_texts.extend(f.readlines())
-standard_characters = [info.strip().split(",")[2] for info in characters_texts]
+standard_characters: List[str] = []
+for file_path in standard_character_files:
+    with open(file_path, "r", encoding="utf-8") as f:
+        standard_characters.extend(f.readlines())
+standard_characters_set = set(
+    info.strip().split(",")[2] for info in standard_characters
+)
 
-with open("resource/pinyins_resource.txt", "r", encoding="utf-8") as f:
-    print("Preparing pinyins...")
-    pinyins_texts = f.readlines()
-    characters_with_pinyin: List[str] = []
-    character_pinyin_dict: Dict[str, str] = {}
-    for text in pinyins_texts:
-        parts = text.strip().split(" ")
-        if len(parts) != 6:
-            continue
-        character = parts[4]
-        pinyin = parts[2].replace(";", "").replace('"', "")
-        if character not in standard_characters:
-            continue
-        if character in characters_with_pinyin:
-            pinyin = character_pinyin_dict[character] + "," + pinyin
+# 准备拼音字典
+print("Preparing pinyins...")
+character_pinyin_dict: Dict[str, str] = {}
+
+with open("resource/pinyin.txt", "r", encoding="utf-8") as f:
+    pinyin_lines = f.readlines()
+for line in pinyin_lines:
+    parts = line.strip().split(" ")
+    character = parts[2]
+    pinyin = parts[1]
+    if character in standard_characters_set:
+        if character in character_pinyin_dict:
+            character_pinyin_dict[character] += "," + pinyin
         else:
-            characters_with_pinyin.append(character)
-        character_pinyin_dict[character] = pinyin
-    standard_characters = characters_with_pinyin
+            character_pinyin_dict[character] = pinyin
 
 
+# 过滤包含标准字符的词汇
 def filter_words_with_standard_characters(words: List[str]) -> List[str]:
-    filtered_words: List[str] = []
-    for word in tqdm(words, desc="Filtering words with standard characters"):
-        if all([character in standard_characters for character in word]):
-            filtered_words.append(word)
-    return filtered_words
+    print("Filtering words with standard characters...")
+    return [
+        word
+        for word in words
+        if all(character in character_pinyin_dict for character in word)
+    ]
 
 
-def strip_words(words: List[str]) -> List[str]:
-    print("Stripping words...")
-    return [word.strip() for word in words]
-
-
-def filter_repeated_words(words: List[str]) -> List[str]:
-    print("Filtering repeated words...")
-    return list(set(words))
-
-
+# 准备词汇列表
 def prepare_words() -> List[str]:
     print("Preparing words...")
     words: List[str] = []
-    for file in simple_formatted_files:
-        with open(file=file, mode="r", encoding="utf-8") as f:
-            words.extend(f.readlines())
-    for file in THUOCL_formatted_files:
-        with open(file=file, mode="r", encoding="utf-8") as f:
-            words.extend([line.split(" ")[0] for line in f.readlines()])
-
+    for file_path in simple_word_files:
+        with open(file_path, "r", encoding="utf-8") as f:
+            words.extend(word.strip() for word in f.readlines())
+    for file_path in thuocl_word_files:
+        with open(file_path, "r", encoding="utf-8") as f:
+            words.extend(line.split(" ")[0].strip() for line in f.readlines())
     with open(
-        file="resource/words_data/中文分词词库整理/42537条伪原创词库.txt",
-        mode="r",
+        "resource/words_data/中文分词词库整理/42537条伪原创词库.txt",
+        "r",
         encoding="utf-8",
     ) as f:
-        words_text: List[str] = []
         for line in f.readlines():
-            words_in_line = line.split("→")
-            for word_in_line in words_in_line:
-                words_text.append(word_in_line)
-        words.extend(words_text)
-    with open(file="resource/XDHYCD7th.txt", mode="r", encoding="utf-8") as f:
+            words.extend(word.strip() for word in line.split("→"))
+    with open("resource/XDHYCD7th.txt", "r", encoding="utf-8") as f:
         xhzd = f.read()
-        pattern = re.compile(r"【(.*?)】")
-        matches: List[str] = pattern.findall(xhzd)
-        cleaned_matches = {re.sub(r"（儿）", "", match) for match in matches}
-        words.extend(cleaned_matches)
-
-    words = strip_words(words)
-    words = filter_repeated_words(words)
-    words = filter_words_with_standard_characters(words)
-    return words
+        matches = re.findall(r"【(.*?)】", xhzd)
+        words.extend(re.sub(r"（儿）", "", match) for match in matches)
+    print("Filtering duplicates...")
+    words = list(set(words))
+    return filter_words_with_standard_characters(words)
 
 
-os.makedirs(dest_dependencies_dir, exist_ok=True)
-with open(dest_characters_path, "w", encoding="utf-8") as f:
-    for character in standard_characters:
+# 写入文件
+words = prepare_words()
+print("Writing files...")
+os.makedirs(dependencies_dir, exist_ok=True)
+with open(characters_output_path, "w", encoding="utf-8") as f:
+    for character in character_pinyin_dict:
         f.write(character + "\n")
-with open(dest_character_pinyin_dict_path, "w", encoding="utf-8") as file:
-    json.dump(character_pinyin_dict, file, ensure_ascii=False, indent=4)
-with open(dest_words_path, "w", encoding="utf-8") as f:
-    words = prepare_words()
+with open(character_pinyin_dict_path, "w", encoding="utf-8") as f:
+    json.dump(character_pinyin_dict, f, ensure_ascii=False, indent=4)
+with open(words_output_path, "w", encoding="utf-8") as f:
     for word in words:
         f.write(word + "\n")
+print(f"Total words: {len(words)}")
